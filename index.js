@@ -159,7 +159,7 @@ console.log(UserPedidos)
          console.log(user)
          console.log(status)
 
-          if (compareMessage === "hola bot-marileo 👋") {
+          if (compareMessage === "hola bot-marileo 👋" || compareMessage === "Hola" ) {
             
             await sock.sendMessage(numberWa,
                 { 
